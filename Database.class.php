@@ -3,8 +3,8 @@
     class DataBase extends PDO {
         // Propriétés contenant les informations de connexion à la base de données
         private $_DB_HOST = 'localhost'; // Nom de l'hôte de la base de données
-        private $_DB_USER = 'florent';    // Nom d'utilisateur de la base de données
-        private $_DB_PASS = '123456789';  // Mot de passe de la base de données
+        private $_DB_USER = 'root';    // Nom d'utilisateur de la base de données
+        private $_DB_PASS = '';  // Mot de passe de la base de données
         private $_DB_NAME = 'fpview';     // Nom de la base de données
 
         // Constructeur de la classe
